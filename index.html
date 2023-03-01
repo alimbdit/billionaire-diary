@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billionaire Diary</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/8d11062482.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+
+    <header>
+
+    </header>
+
+    <main>
+        <section class="">
+            <div class="flex h-full">
+                <div class="sidebar bg-indigo-900 w-1/4 text-center py-5 px-6">
+                    <h1 class="text-white font-bold text-3xl ">BILLIONAIRE</h1>
+                    <h3 class="font-medium text-white text-xl">DIARY</h3>
+
+                    <div class="mt-7">
+                        <button class="text-slate-700 font-bold bg-zinc-100 w-full h-14 text-lg">
+                            <div class="flex flex-col gap-1">
+                                <span class="leading-4">Add A User</span> <span
+                                    class="text-base font-normal leading-4">(Randomly)</span>
+                            </div>
+                        </button>
+
+
+
+                        <button class="text-slate-700 font-bold bg-zinc-100 w-full h-14  text-lg mt-3">
+                            <div class="flex flex-col gap-1">
+                                <span class="leading-4">Double Money</span>
+                            </div>
+                        </button>
+
+
+                        <button class="text-slate-700 font-bold bg-zinc-100 w-full h-14 text-lg  mt-3">
+                            <div class="flex flex-col gap-1">
+                                <span class="leading-4">Sort By Rank</span> <span
+                                    class="text-base font-normal leading-4">(Decending)</span>
+                            </div>
+                        </button>
+
+
+
+                        <button class="text-slate-700 font-bold bg-zinc-100 w-full h-14 text-lg  mt-3">
+                            <div class="flex flex-col gap-1">
+                                <span class="leading-4">Calculate Entire Wealth</span>
+                            </div>
+                        </button>
+
+                        <hr class="w-3/4 text-center my-5 border mx-auto">
+
+                        <button class="text-slate-700 font-bold bg-zinc-100 w-full h-14 text-lg ">
+                            <div class="flex flex-col gap-1">
+                                <span class="leading-4">Show All Billionaires</span>
+                            </div>
+                        </button>
+
+                        <button class="text-slate-700 font-bold bg-zinc-100 w-full h-14 text-lg  mt-3">
+                            <div class="flex flex-col gap-1">
+                                <span class="leading-4">Richest by industry</span> <span
+                                    class="text-base font-normal leading-4">(Technology)</span>
+                            </div>
+                        </button>
+
+                        <button class="text-slate-700 font-bold bg-zinc-100 w-full h-14 text-lg  mt-3">
+                            <div class="flex flex-col gap-1">
+                                <span class="leading-4">Richest by states</span> <span
+                                    class="text-base font-normal leading-4">(Texas)</span>
+                            </div>
+                        </button>
+
+                    </div>
+                </div>
+                <div class="main-body w-full bg-slate-300">
+
+                    <div class="bg-slate-100 px-10 py-7">
+                        <input class="border-b-2 px-3 py-2 bg-slate-100 border-slate-300" type="text"
+                            placeholder="Search">
+                    </div>
+                    <div class=" px-10 py-7 ">
+                        <h1 class="text-2xl font-bold text-slate-700 mb-7">Hello, User!</h1>
+
+                        <!-- table -->
+
+                        <div class="w-full">
+                            <table class="table border-spacing-y-0 table-compact w-full bg-slate-300 ">
+                                <thead class="border-b-2 border-slate-500 ">
+                                    <tr class="">
+
+
+                                        <th class="pl-5 bg-slate-300 text-base ">Person</th>
+                                        <th class="pl-5 bg-slate-300 text-base"></th>
+                                        <th class="pl-5 bg-slate-300 text-base">Citizenship</th>
+                                        <th class="pl-5 bg-slate-300 text-base">Industry</th>
+                                        <th class="pl-5 bg-slate-300 text-base">Rank</th>
+                                        <th class="pr-10 bg-slate-300 text-base text-end">Wealth</th>
+                                    </tr>
+                                </thead>
+                                <tbody class=" ">
+                                    <tr>
+
+                                        <td class="pl-5 bg-slate-300 border-b-0 text-base">Jeff Bezos </td>
+                                        <td class="bg-slate-300 border-b-0"><i class="fa-solid fa-eye ml-5"></i></td>
+                                        <td class="pl-5 bg-slate-300 border-b-0">United States</td>
+                                        <td class="pl-5 bg-slate-300 border-b-0">Technology</td>
+                                        <td class="pl-5 bg-slate-300 border-b-0">3 </td>
+                                        <td class="pr-10 bg-slate-300 border-b-0 text-end">$124317.31</td>
+                                    </tr>
+                                    <tr class="border-slate-500 ">
+
+                                        <td class="pl-5 bg-slate-300 border-b-0 text-base ">sergey-brin</td>
+                                        <td class="bg-slate-300 border-b-0"><i class="fa-solid fa-eye ml-5"></i></td>
+                                        <td class="pl-5 bg-slate-300 border-b-0 text-base ">United States</td>
+                                        <td class="pl-5 bg-slate-300 border-b-0 text-base ">Technology</td>
+                                        <td class="pl-5 bg-slate-300 border-b-0 text-base "> 12 </td>
+                                        <td class="pr-10 bg-slate-300 border-b-0 text-base text-end">$80526.39 </td>
+                                    </tr>
+                                    <tr>
+
+                                        <td class="pl-5 bg-slate-300 border-b-0 text-base ">Murat Vargi </td>
+                                        <td class="bg-slate-300 border-b-0"><i class="fa-solid fa-eye ml-5"></i></td>
+                                        <td class="pl-5 bg-slate-300 border-b-0 text-base ">Turkey</td>
+                                        <td class="pl-5 bg-slate-300 border-b-0 text-base ">Telecom</td>
+                                        <td class="pl-5 bg-slate-300 border-b-0 text-base ">2495 </td>
+                                        <td class="pr-10 bg-slate-300 border-b-0 text-base text-end ">$1029.57 </td>
+                                    </tr>
+
+
+                                </tbody>
+                                <tfoot class="border-t-2 border-slate-500 ">
+
+                                    <tr>
+
+                                        <th class="pl-5 bg-slate-300 text-base ">Total</th>
+                                        <th class="pl-5 bg-slate-300 text-base "></th>
+                                        <th class="pl-5 bg-slate-300 text-base "></th>
+                                        <th class="pl-5 bg-slate-300 text-base "></th>
+                                        <th class="pl-5 bg-slate-300 text-base "></th>
+                                        <th class="pr-10 bg-slate-300 text-base text-end">$205873.27</th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- modal -->
+        <section>
+            <!-- The button to open modal -->
+            <label for="my-modal-3" class="btn">open modal</label>
+
+
+            <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+            <div class="modal">
+                <div class="modal-box h-screen  w-full max-w-5xl relative ">
+                    <label for="my-modal-3" class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                    <div class="text-center">
+                        <h1 class="text-3xl font-bold">Jeff Bezos</h1>
+                        <h3 class="text-lg font-bold">Biography</h3>
+                        <p class="py-2 px-4">Jeff Bezos founded e-com… chairman in July 2021. He now owns a bit less than 10% of the company. He and his wife MacKenzi…6% Amazon stake to her. Bezos has donated more t… received those shares. Bezos owns The Washingto…ce in one in July 2021. Bezos said in a November…sing specific details.</p>
+                    </div>
+                    <div class=" py-4 px-10 text-slate-700 rounded-lg flex justify-center">
+                        <div class="flex justify-center items-end gap-3 w-3/5">
+                            <figure class="flex flex-col w-full">
+                                <img class="" src="https://picsum.photos/200" alt="Movie"/>
+                                <h4 class="font-medium text-left mt-1">Source: Amazon</h4>
+                            </figure>
+                        <div class=" pl-3  flex items-center w-full">
+                          <div>
+                            <h4 class="font-semibold text-xl mb-2">General Information</h4>
+                            <hr class="border border-slate-500 mb-1">
+                            <p class="font-medium">Citizenship: United <br>
+                                State: Washing <br>
+                                City: Medina <br>
+                                Birthday: January 12, 1964 <br>
+                                Gender: M</p>
+                            <h4 class="font-semibold text-xl mb-2 mt-3">Financial Information</h4>
+                            <hr class="border border-slate-500 mb-1">
+                            <p class="font-medium">Exchange: NASDAQ<br>
+                                Ticker: AMZN-US<br>
+                                Total Shares: 992634000<br>
+                                Share Price: $99.7 </p>
+                          </div>
+                        </div>
+                        </div>
+                        
+                      </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- sctipts -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
