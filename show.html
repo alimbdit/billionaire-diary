@@ -30,60 +30,20 @@
     <!-- main section -->
     <main class="bg-slate-300">
         <section class="container mx-auto">
-            <div class="grid grid-cols-3 gap-5 pb-10 pt-14">
-                <div class="card  bg-cyan-900 shadow-xl py-5 px-7 text-white rounded-lg">
-                    <h1 class=" text-2xl font-bold text-center mb-5">Card Title</h1>
-                    <div class="flex gap-3">
-                        <figure class=""><img src="https://picsum.photos/200" alt="Movie"/></figure>
-                    <div class=" pl-3 border-l-2 border-so flex items-center">
-                      <div>
-                        <p class="font-bold">Citizenship: United <br>
-                            State: Washing <br>
-                            City: Medina <br>
-                            Total Shares: 992634 <br>
-                            Share Price: $99.7</p>
-                      </div>
-                    </div>
-                    </div>
-                    <h4 class="font-medium text-left mt-2">Source: Amazon</h4>
-                  </div>
-                <div class="card  bg-cyan-900 shadow-xl py-5 px-7 text-white rounded-lg">
-                    <h1 class=" text-2xl font-bold text-center mb-5">Card Title</h1>
-                    <div class="flex gap-3">
-                        <figure class=""><img src="https://picsum.photos/200" alt="Movie"/></figure>
-                    <div class=" pl-3 border-l-2 border-so flex items-center">
-                      <div>
-                        <p class="font-bold">Citizenship: United <br>
-                            State: Washing <br>
-                            City: Medina <br>
-                            Total Shares: 992634 <br>
-                            Share Price: $99.7</p>
-                      </div>
-                    </div>
-                    </div>
-                    <h4 class="font-medium text-left mt-2">Source: Amazon</h4>
-                  </div>
-                <div class="card  bg-cyan-900 shadow-xl py-5 px-7 text-white rounded-lg">
-                    <h1 class=" text-2xl font-bold text-center mb-5">Card Title</h1>
-                    <div class="flex gap-3">
-                        <figure class=""><img src="https://picsum.photos/200" alt="Movie"/></figure>
-                    <div class=" pl-3 border-l-2 border-so flex items-center">
-                      <div>
-                        <p class="font-bold">Citizenship: United <br>
-                            State: Washing <br>
-                            City: Medina <br>
-                            Total Shares: 992634 <br>
-                            Share Price: $99.7</p>
-                      </div>
-                    </div>
-                    </div>
-                    <h4 class="font-medium text-left mt-2">Source: Amazon</h4>
-                  </div>
+            <div id="card-container" class="grid grid-cols-3 gap-5 pb-10 pt-14">
+
                   
             </div>
             <div class=" pb-10 text-center">
-                <button class="px-10 py-2 bg-indigo-900 text-xl font-semibold text-white ">Load More</button>
+                <button id="load-more" class="px-10 py-2 bg-indigo-900 text-xl font-semibold text-white hidden">Load More</button>
 
+            </div>
+        </section>
+
+
+        <section id="loader" class="flex justify-center items-center">
+            <div style="height: 200px;">
+                <button class="text-green-600 btn btn-lg bg-opacity-0 border-0 loading "></button>
             </div>
         </section>
     </main>
@@ -91,7 +51,8 @@
 
 
     <!-- sctipts -->
-    <script src="js/index.js"></script>
+    <!-- <script src="js/index.js"></script> -->
+    <script src="js/show.js"></script>
 </body>
 
 </html>
